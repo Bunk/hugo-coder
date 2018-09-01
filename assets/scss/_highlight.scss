@@ -1,0 +1,33 @@
+.highlight {
+  code {
+    background-color: inherit;
+  }
+
+  // Highlights w/ line numbers
+  > div {
+    margin: 1.6rem 0;
+    padding: 0 1.6rem;
+
+    pre {
+      margin: 0;
+      padding: 1.6rem 0;
+
+      code {
+        padding: 0;
+      }
+    }
+  }
+
+  table tr td:last-child, code {
+    width: 100%;
+  }
+
+  // Regular highlights
+  > pre {
+    margin: 1.6rem 0;
+
+    code {
+      padding: 0.4rem 0.8rem 0.4rem 0.8rem;
+    }
+  }
+}
